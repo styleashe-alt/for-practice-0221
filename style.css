@@ -110,6 +110,63 @@ section h2 {
     transition: color 0.3s, border-bottom-color 0.3s;
 }
 
+/* Gecko Info */
+.gecko-info {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid #f0a500;
+}
+
+body.dark-mode .gecko-info {
+    background-color: #444;
+    color: #eee;
+}
+
+/* Supply List */
+.supply-list {
+    list-style: none;
+    padding: 0;
+}
+
+.supply-list li {
+    padding: 0.8rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body.dark-mode .supply-list li {
+    border-bottom-color: #555;
+}
+
+.price-link {
+    background-color: #f0a500;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.price-link:hover {
+    background-color: #d49200;
+    transform: scale(1.05);
+}
+
+body.dark-mode .price-link {
+    background-color: #f0a500;
+    color: #222;
+}
+
+body.dark-mode .price-link:hover {
+    background-color: #ffb700;
+}
+
 /* Theme Toggle Button */
 .theme-switch-wrapper {
     display: flex;

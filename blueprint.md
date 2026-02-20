@@ -1,35 +1,29 @@
-# Leopard Gecko Care Guide
+# Gecko Care Guide
 
 ## Overview
 
-This project is a comprehensive guide to leopard gecko care, created as a modern, single-page web application. It is built using HTML, CSS, and JavaScript, following Baseline web standards.
+This project is a comprehensive guide to gecko care, specifically focusing on Leopard Geckos and Crested Geckos. It is a modern, single-page web application built using HTML, CSS, and JavaScript, following Baseline web standards.
 
 ## Project Outline
 
 ### Design & Style
 
 *   **Layout:** A single-page, responsive layout that works well on desktop and mobile devices.
-*   **Color Palette:** A vibrant and energetic color scheme inspired by the leopard gecko's natural colors.
-*   **Typography:** Expressive and readable fonts to create a clear visual hierarchy.
-*   **Texture:** A subtle noise texture on the background to add a premium feel.
-*   **Visual Effects:** Multi-layered drop shadows on elements to create a sense of depth.
-*   **Iconography:** Icons to enhance understanding and navigation.
-*   **Interactivity:** Interactive elements will have a "glow" effect.
+*   **Color Palette:** A vibrant and energetic color scheme with a primary focus on yellow/orange (#f0a500).
+*   **Typography:** Montserrat for body text and Playfair Display for headings.
+*   **Features:**
+    *   **Dark Mode:** A user-selectable dark theme that persists across sessions.
+    *   **Interactive Links:** "Lowest price search" buttons for essential supplies.
+    *   **Responsive Design:** Optimized for various screen sizes.
 
-### Features
+### Content Sections
 
-*   **Care Sections:** Detailed sections covering:
-    *   Introduction to Leopard Geckos
-    *   Housing and Enclosure Setup
-    *   Diet and Feeding
-    *   Health and Wellness
-*   **Web Components:** Reusable components for UI elements like styled containers or info boxes.
+*   **Leopard Gecko Care:** Temperature, humidity, diet, and essential supplies.
+*   **Crested Gecko Care:** Environment (vertical), diet (superfood), and essential supplies.
+*   **Supply Links:** Direct links to Naver Shopping search results for easy price comparison.
 
-## Current Plan
+## Implementation Details
 
-*   **Objective:** Create the initial structure and styling for the Leopard Gecko Care Guide website.
-*   **Steps:**
-    1.  **Create `blueprint.md`:** Document the project's vision and current plan.
-    2.  **Modify `index.html`:** Set up the basic HTML structure with a header, main content area, and sections for the guide.
-    3.  **Modify `style.css`:** Apply a modern and visually appealing style to the page, including a custom color scheme, fonts, and layout.
-    4.  **Modify `main.js`:** (No changes in this step).
+*   **HTML:** Structured with semantic tags (`header`, `main`, `section`, `nav`).
+*   **CSS:** Custom styling for light and dark modes, including stylized buttons for external links.
+*   **JavaScript:** Handles theme switching and local storage for user preferences.
